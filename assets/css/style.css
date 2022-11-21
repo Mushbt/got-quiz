@@ -3,5 +3,17 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #28282B;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: snow;
+    font-size: 4rem;
 }
 
