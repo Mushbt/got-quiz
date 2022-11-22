@@ -30,3 +30,18 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.playbtn {
+    border: 3px solid snow;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background-color: #28282B;
+    color: snow;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(255, 255, 240, 0.6);
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
