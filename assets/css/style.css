@@ -54,6 +54,12 @@ img {
     font-weight: bolder;
 }
 
+.playbtn:active {
+    color: snow;
+    background-color: black;
+    border: 3px solid snow;
+}
+
 .playbtn-wrapper {
     display: block;
     text-align: center;
