@@ -30,6 +30,7 @@ img {
 .image {
     display: flex;
     justify-content: center;
+    padding-bottom: 75px;
 }
 
 .playbtn {
