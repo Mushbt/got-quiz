@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #28282B;
+    background-color: black;
 }
 
 header {
@@ -38,7 +38,7 @@ img {
     font-family: 'Cinzel', serif;
     font-size: 1.5em;
     padding: 0.5em 1em;
-    background-color: #28282B;
+    background-color: black;
     color: snow;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -46,6 +46,12 @@ img {
     cursor: pointer;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.playbtn:hover {
+    color: black;
+    background-color: snow;
+    font-weight: bolder;
 }
 
 .playbtn-wrapper {
