@@ -20,6 +20,7 @@ h1 {
 
 h2 {
     font-family: 'Cinzel', serif;
+    font-size: 3rem;
     color: snow;
     display: flex;
     justify-content: center;
@@ -29,4 +30,15 @@ p {
     font-family: 'Cinzel', serif;
     color: snow;
     font-weight: bolder;
+    background-color: grey;
+}
+
+.choice-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    border: 3px solid snow;
+    background-color: grey;
+    border-radius: 10px;
 }
