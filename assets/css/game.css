@@ -49,7 +49,7 @@ p {
 }
 
 .choice-container:active {
-    background-color: #800020;
+    background-color: black;
 }
 
 .choice-prefix {
