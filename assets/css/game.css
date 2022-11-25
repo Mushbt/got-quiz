@@ -35,10 +35,15 @@ p {
 
 .choice-container {
     display: flex;
-    justify-content: center;
     margin-bottom: 2rem;
     font-size: 2rem;
     border: 3px solid snow;
     background-color: grey;
+    border-radius: 10px;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: black;
     border-radius: 10px;
 }
