@@ -42,6 +42,12 @@ p {
     border-radius: 10px;
 }
 
+.choice-container:hover {
+    cursor: pointer;
+    background-color: black;
+    font-weight: bolder;
+}
+
 .choice-prefix {
     padding: 1.5rem 2.5rem;
     background-color: black;
