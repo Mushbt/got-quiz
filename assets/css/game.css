@@ -48,6 +48,10 @@ p {
     font-weight: bolder;
 }
 
+.choice-container:active {
+    background-color: grey;
+}
+
 .choice-prefix {
     padding: 1.5rem 2.5rem;
     background-color: black;
