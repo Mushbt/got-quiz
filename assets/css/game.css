@@ -13,7 +13,7 @@ header {
 
 h1 {
     font-family: 'Cinzel', serif;
-    color: snow;
+    color: #800020;
     font-size: 4rem;
     padding-bottom: 75px;
 }
@@ -38,23 +38,23 @@ p {
     margin-bottom: 2rem;
     font-size: 2rem;
     border: 3px solid snow;
-    background-color: grey;
+    background-color: black;
     border-radius: 10px;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: #800020;
     font-weight: bolder;
 }
 
 .choice-container:active {
-    background-color: grey;
+    background-color: #800020;
 }
 
 .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: black;
+    background-color: #800020;
     border-radius: 10px;
 }
 
