@@ -278,5 +278,10 @@ getNewQuestion = ()=> {
     acceptingAnswers = true;
 };
 
+choice.forEach(choice => {
+    choice.addEventListener('click', e => {
+        
+    })
+})
 
 startGame();
