@@ -54,8 +54,9 @@ p {
 
 .choice-container:hover {
     cursor: pointer;
-    background-color: #800020;
     font-weight: bolder;
+    transform: scale(1.02);
+    box-shadow: 0 2px 5px rgba(128, 0, 32, 0.6);
 }
 
 .choice-container:active {
