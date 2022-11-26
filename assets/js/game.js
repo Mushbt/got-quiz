@@ -263,6 +263,9 @@ startGame = () => {
 };
 getNewQuestion = ()=> {
 
+    questionCounter++;
+    Math.floor(Math.random() * availableQuestions.length);
+
 }
 
 startGame();
