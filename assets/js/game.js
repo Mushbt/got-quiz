@@ -1,5 +1,7 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
+const questionsCounter = document.getElementById('questionCounter');
+const scores = document.getElementById('score');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
