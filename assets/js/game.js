@@ -250,3 +250,5 @@ let questions = [
         answer: 2,
     },
 ]
+
+const CORRECT_SCORE = 1;
