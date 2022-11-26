@@ -18,11 +18,7 @@ h1 {
     padding-bottom: 75px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+
 
 .btn {
     border: 3px solid #800020;
@@ -49,4 +45,15 @@ h1 {
     color: snow;
     background-color: black;
     border: 3px solid rgba(128, 0, 32, 0.6);
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: fit-content;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 2rem;
 }
