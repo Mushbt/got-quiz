@@ -289,10 +289,11 @@ choices.forEach(choice => {
         const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
         selectedChoice.parentElement.classList.add(classToApply);
-
-        selectedChoice.ParentElement.classList.remove(classToApply);
-       
-        getNewQuestion();
+    
+        setTimeout( () => {
+            selectedChoice.ParentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);    
     });
 });
 
