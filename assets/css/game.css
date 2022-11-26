@@ -33,6 +33,15 @@ p {
     background-color: transparent;
 }
 
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
 .choice-container {
     display: flex;
     margin-bottom: 2rem;
@@ -40,6 +49,7 @@ p {
     border: 3px solid snow;
     background-color: black;
     border-radius: 10px;
+    
 }
 
 .choice-container:hover {
