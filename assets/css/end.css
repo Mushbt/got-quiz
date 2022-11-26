@@ -18,6 +18,12 @@ h1 {
     padding-bottom: 75px;
 }
 
+#finalScore {
+display: flex;
+justify-content: center;
+}
+
+
 
 
 .btn {
