@@ -71,3 +71,13 @@ p {
 .choice-text {
     padding: 1.5rem;
 }
+
+.correct {
+    background: linear-gradient(to right, #008000 10%, #329b24 10%, 
+    #52b640 10%, #6fd25a 10%, #8cef74 10%, #a8ff8f 10%, #c6ffab 10%,   
+    #e3ffc7 10%, #ffffe3 10%, #ffffff 10%);
+}
+
+.incorrect {
+    background: linear-gradient(to right, #800000 20%, #720000 20%, #590000 20%, #3f0000 20%, #1c0000 20%);
+}
