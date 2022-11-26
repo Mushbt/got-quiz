@@ -300,4 +300,9 @@ choices.forEach(choice => {
     });
 });
 
+incrementScore = num => {
+    score += num;
+    scores.innerText = score;
+};
+
 startGame();
