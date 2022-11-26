@@ -264,7 +264,7 @@ startGame = () => {
 getNewQuestion = ()=> {
 
     questionCounter++;
-    Math.floor(Math.random() * availableQuestions.length);
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
 
 }
 
