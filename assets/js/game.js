@@ -285,7 +285,8 @@ choice.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-    })
-})
+        getNewQuestion();
+    });
+});
 
 startGame();
