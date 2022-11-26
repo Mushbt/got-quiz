@@ -277,7 +277,7 @@ getNewQuestion = ()=> {
     });
 
     availableQuestions.splice(questionIndex, 1);
-
+    console.log(availableQuestions);
     acceptingAnswers = true;
 };
 
@@ -286,9 +286,11 @@ choices.forEach(choice => {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedChoice = e.target;
+        const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset["number"];
-        console.log(selectedAnswer);
+
+
+        console.log(selectedAnswer == currentQuestion.answer);
         getNewQuestion();
     });
 });
