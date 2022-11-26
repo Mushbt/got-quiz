@@ -1,0 +1,1 @@
+const mostRecentScore = localStorage.getItem('mostRecentScore');
