@@ -17,3 +17,30 @@ h1 {
     font-size: 4rem;
     padding-bottom: 75px;
 }
+
+.btn {
+    border: 3px solid #800020;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background-color: black;
+    color: snow;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(128, 0, 32, 0.6);
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #800020;
+    font-weight: bolder;
+}
+
+.btn:active {
+    color: snow;
+    background-color: black;
+    border: 3px solid rgba(128, 0, 32, 0.6);
+}
