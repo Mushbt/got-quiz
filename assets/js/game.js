@@ -283,6 +283,7 @@ choice.forEach(choice => {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
+        const selectedChoice = e.target;
     })
 })
 
