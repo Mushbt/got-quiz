@@ -258,4 +258,11 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
+    console.log(availableQuestions);
+    getNewQuestion();
+};
+getNewQuestion = ()=> {
+
 }
+
+startGame();
