@@ -272,6 +272,8 @@ getNewQuestion = ()=> {
         const number = choice.dataset["number"];
         choice.innerText = currentQuestion["choice" + number];
     });
+
+    availableQuestions.splice(questionIndex, 1);
 };
 
 
