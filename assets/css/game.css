@@ -80,3 +80,8 @@ p {
 .incorrect {
     background-color: #800000;
 }
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
