@@ -1,3 +1,3 @@
 const question = document.querySelector('#question');
-const choices = document.getElementsByClassName('choice-text');
+const choices = Array.from(document.getElementsByClassName('choice-text'));
 console.log(choices);
