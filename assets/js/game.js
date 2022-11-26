@@ -1,6 +1,5 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
-console.log(choices);
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -258,7 +257,6 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
     getNewQuestion();
 };
 getNewQuestion = ()=> {
@@ -277,20 +275,19 @@ getNewQuestion = ()=> {
     });
 
     availableQuestions.splice(questionIndex, 1);
-    console.log(availableQuestions);
     acceptingAnswers = true;
 };
 
 choices.forEach(choice => {
-    choice.addEventListener('click', e => {
+    choice.addEventListener("click", e => {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset["number"];
 
-
-        console.log(selectedAnswer == currentQuestion.answer);
+        const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+       
         getNewQuestion();
     });
 });
