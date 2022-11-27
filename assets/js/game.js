@@ -302,6 +302,7 @@ choices.forEach(choice => {
     
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
+            correctAnswer.parentElement.classList.remove('correct');
             getNewQuestion();
         }, 1000);    
     });
