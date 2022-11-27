@@ -92,3 +92,94 @@ p {
 .hud-main-text {
     text-align: center;
 }
+
+@media screen and (max-width: 1425px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .choice-text {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 1308px) {
+    .choice-container {
+        width: 500px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .choice-text {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media screen and (max-width: 905px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 886px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #hud {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .choice-container {
+        min-width: 30rem;
+        margin-bottom: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .choice-text {
+        font-size: 1.2rem;
+    }
+
+    .choice-container {
+        max-width: 20rem;
+    }
+    }
+
+@media screen and (max-width: 485px) {
+    .choice-container {
+        font-size: 1rem;
+        margin-right: 50px;
+        min-width: 20rem;
+    }
+
+    .choice-text {
+        font-size: 15px;
+    }
+
+    #question {
+        font-size: 0.8rem;
+    }
+} 
+
+@media screen and (max-width: 389px) {
+    header > h1 {
+        font-size: 1.5rem;
+    }
+}
