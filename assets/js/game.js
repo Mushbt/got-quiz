@@ -290,10 +290,12 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset["number"];
 
-        const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-
-        if(classToApply === 'correct') {
+        let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        const correctAnswer = choices[currentQuestion.answer - 1]
+        if(classToApply === "correct") {
             incrementScore(CORRECT_SCORE);
+        } else if (classToApply === "incorrect") {
+            correctAnswer.parentElement.classList.add("correct")
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
