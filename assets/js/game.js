@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-
+//Quiz Variables
 const question = document.querySelector('#question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const questionsCounter = document.getElementById('questionCounter');
@@ -10,7 +10,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
+//Quiz questions
 let questions = [
     {
         question: "Winterfell is the home of which family?",
@@ -253,10 +253,10 @@ let questions = [
         answer: 2,
     },
 ];
-
+//Correct scores and max question variables
 const CORRECT_SCORE = 1;
 const MAX_QUESTIONS = 10;
-
+//When game starting question counter and score both 0
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -267,11 +267,11 @@ getNewQuestion = ()=> {
 
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('end.html');
+        return window.location.assign('end.html'); //After 10 questions redirecting to end page
     }
     questionCounter++;
     questionsCounter.innerText = `${questionCounter} / ${MAX_QUESTIONS}`;
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length); //Random questions
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
@@ -280,12 +280,12 @@ getNewQuestion = ()=> {
         choice.innerText = currentQuestion["choice" + number];
     });
 
-    availableQuestions.splice(questionIndex, 1);
+    availableQuestions.splice(questionIndex, 1); //Question won't be repeated twice in same game
     acceptingAnswers = true;
 };
 
 choices.forEach(choice => {
-    choice.addEventListener("click", e => {
+    choice.addEventListener("click", e => { //Event Listener for when user clicks on an answer
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
@@ -295,16 +295,16 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         const correctAnswer = choices[currentQuestion.answer - 1];
         if(classToApply === "correct") {
-            incrementScore(CORRECT_SCORE);
+            incrementScore(CORRECT_SCORE); //Points increase if choice is correct
         } else if (classToApply === "incorrect") {
-            correctAnswer.parentElement.classList.add("correct");
+            correctAnswer.parentElement.classList.add("correct"); // Show correct answer if incorrect answer is choses
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
     
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply);
-            correctAnswer.parentElement.classList.remove('correct');
+            selectedChoice.parentElement.classList.remove(classToApply); 
+            correctAnswer.parentElement.classList.remove('correct'); // Remove green highlight of correct answer once new question is loaded
             getNewQuestion();
         }, 1000);    
     });
