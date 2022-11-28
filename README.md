@@ -223,10 +223,13 @@ No visible errors occured.
 
    * HTML - 
       * Game page
-   ![W3C HTML Validator test results](insert image here)
+   ![W3C HTML Validator test results](assets/images/read-me/html-game-val.png)
+      * Warning 1 showed an empty heading. This was resolved by adding a heading text to the h1 element.
+      * Warning 2 and 3 was resolved by removing the dash between hud and item.
 
       * End page
-   ![W3C HTML Validator test results](insert image here)
+   ![W3C HTML Validator test results](assets/images/read-me/end-html-val.png)
+      * The warning showed an empty heading. This was resolved by adding a heading text to the h1 element.
 
 * ### Unresolved
    * JS - 
