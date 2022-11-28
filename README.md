@@ -38,6 +38,8 @@ The live link to the Github repository can be found here - (https://mushbt.githu
 * As a user, I want to be able to see if my answer is correct.
 * As a user, I want to be able to see if my answer is incorrect.
 * As a user, I want to see what was the correct answer if I have chosen an incorrect answer.
+* As a user, I want to know what my score is.
+* As a user, I want to know how many questions I have left to complete quiz.
 * As a user, I want to be able to play the game again.
 
 
@@ -173,3 +175,48 @@ The CSS validator results for each page are below:
 The Game of Thrones Quiz was tested on the following browsers:
 Google Chrome, Microsoft Edge, Safari, Mozilla Firefox, Samsung Internet, and Huawei Browser.
 No visible errors occured.
+
+## Testing User Stories
+
+* As a user, I want to know what the website is about as soon as I enter the site.
+   * A title of Game of Thrones Quiz visible at the top of the page.
+   * An image of the 'Iron Throne' has been placed in the middle of the page.
+
+   <br>
+* As a user, I want to be able easily enter the game page.
+   * A 'Lets Play' button has been placed under the image which will take the user to the game page once clicked.
+   * The button is responsive so that users know it is clickable.
+
+   <br>
+* As a user, I want to be able to play the game and test my knowledge in a fun and simple way.
+   * Once on the game page, the user will see the first question with 4 multiple choice answers. Once user has chosen their answer, the next question will load.
+   * All choice buttons are responsive so that users know they are clickable.
+
+   <br>
+* As a user, I want to be able to see if my answer is correct.
+   * If the answer chosen by the user is correct, the choice button will turn green.
+
+   <br>
+* As a user, I want to be able to see if my answer is incorrect.
+   * If the answer chosen by the user is incorrect, the choice button will turn red.
+
+   <br>
+* As a user, I want to see what was the correct answer if I have chosen an incorrect answer.
+   * If the answer chosen by the user is incorrect, the choice button they chose will turn red and the correct answer will turn green.
+
+   <br>
+* As a user, I want to know what my score is.
+   * On the top of the quiz, there is HUD which shows how many points they have received for the correct answers. Points go up by 1 point per correct answer.
+   * On the end page, the user can see their final score.
+
+   <br>
+* As a user, I want to know how many questions I have left to complete quiz.
+   * On the top of the quiz, there is a HUD which shows the user how many questions of 10 they have answered. 10 being the maximum amount of questions they can answer per game.
+
+   <br>
+* As a user, I want to be able to play the game again.
+   * On the end page, the user has the option to play the game again by clicking on the button 'Play Again'.
+
+
+## Known Bugs
+* ### Resolved
