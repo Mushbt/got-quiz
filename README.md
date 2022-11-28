@@ -226,12 +226,13 @@ No visible errors occured.
 
    ![W3C HTML Validator test results](assets/images/read-me/html-game-val.png)
      
-      * Warning 1 showed an empty heading. This was resolved by adding a heading text to the h1 element.
-      * Warning 2 and 3 was resolved by removing the dash between hud and item.
+    * Warning 1 showed an empty heading. This was resolved by adding a heading text to the h1 element.
+    * Warning 2 and 3 was resolved by removing the dash between hud and item.
 
       * End page
+
    ![W3C HTML Validator test results](assets/images/read-me/end-html-val.png)
-      * The warning showed an empty heading. This was resolved by adding a heading text to the h1 element.
+    * The warning showed an empty heading. This was resolved by adding a heading text to the h1 element.
 
    * JS - 
       * Game page
@@ -248,7 +249,7 @@ No visible errors occured.
       * Game page
 
    ![JSHint Validator test results](assets/images/read-me/jshint-game.png)
-      * Two warnings showed during validation. They were for writing code in dot notation instead. These do not affect functionality of site.
+     * Two warnings showed during validation. They were for writing code in dot notation instead. These do not affect functionality of site.
 
 ## Additional Testing
 ### Lighthouse
@@ -282,7 +283,7 @@ The site was deployed to GitHub pages. The steps to deploy the site are as follo
 
 ![GitHub pages deployed image](insert image here)
 
-  The live link to the Github repository can be found here - (insert link here)
+  The live link to the Github repository can be found here - (https://mushbt.github.io/got-quiz/)
 
 ### **To fork the repository on GitHub**
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changed without affecting the original repository. The steps to fork the repository are as followed:
