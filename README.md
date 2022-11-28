@@ -129,7 +129,7 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
 
 # Testing
 ## Code Validation
-The Stockholm FC site has been tested in depth. All the code has been run through the [W3C html Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [JSHint Validator](https://jshint.com/).  
+The Game of Thrones Quiz has been tested in depth. All the code has been run through the [W3C html Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [JSHint Validator](https://jshint.com/).  
 
 The HTML validator results for each page are below:
 
@@ -322,7 +322,7 @@ The steps to create a local clone of this project are as followed:
 The site was done as part of a project piece for my Full Stack Software Development Diploma at the [Code Institute](https://codeinstitute.net/).
 I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for all his advice and help throughout. I would like to also thank the Slack community and the tutors at The Code Institute for their help whenever it was needed.
 
-The idea for my quiz game was inspired by watching the original Game of Thrones and there was no copyright infringement intended.
+The idea for my quiz game was inspired by watching the original Game of Thrones series and there was no copyright infringement intended.
 
 Mustafa Habet 2022.
 
