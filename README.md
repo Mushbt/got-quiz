@@ -233,9 +233,7 @@ No visible errors occured.
 
 * ### Unresolved
    * JS - 
-      * Home page 
-   ![JSHint Validator test results](insert image here)
-
+     
       * Game page
    ![JSHint Validator test results](insert image here)  
 
