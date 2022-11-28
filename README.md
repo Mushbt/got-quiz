@@ -291,4 +291,29 @@ The steps to create a local clone of this project are as followed:
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
 
-[Back to top](<#contents>)   
+[Back to top](<#contents>)
+
+# Credits
+### Content
+
+* The fonts came from [Google Fonts](https://fonts.google.com/).
+* The colors were chosen based on colors seen in the original Game of Thrones.[Game of Thrones](https://www.imdb.com/title/tt0944947/).
+* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
+* Gitpod Template for the project was generated from [Code Institute](https://codeinstitute.net/)
+* [James Q Quick tutorial for building a quiz app](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&ab_channel=JamesQQuick)
+
+### Media 
+
+* The Iron Throne image was taken from [Big Bad Toy Store](https://www.bigbadtoystore.com/Product/VariationDetails/183962) - Image found on google images.
+
+[Back to top](<#contents>)
+
+# Acknowledgements
+The site was done as part of a project piece for my Full Stack Software Development Diploma at the [Code Institute](https://codeinstitute.net/).
+I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for all his advice and help throughout. I would like to also thank the Slack community and the tutors at The Code Institute for their help whenever it was needed.
+
+The idea for my quiz game was inspired by watching the original Game of Thrones and there was no copyright infringement intended.
+
+Mustafa Habet 2022.
+
+[Back to top](<#contents>)
