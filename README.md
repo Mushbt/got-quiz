@@ -47,13 +47,13 @@ The live link to the Github repository can be found here - (https://mushbt.githu
 
 ## Wireframes
 
-The wireframes for The Game of Thrones Quiz were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display and a small mobile device. The final site varies a little due to some changes being made during development.
+The wireframes for The Game of Thrones Quiz were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display, an Ipad device and a small mobile device. The final site varies a little due to some changes being made during development.
 
-![Desktop wireframe image](insert image here)
+![Desktop wireframe image](assets/images/read-me/got-wf.png)
 
-![Ipad wireframe image](insert image here)
+![Ipad wireframe image](assets/images/read-me/got-wf-ipad.png)
 
-![Mobile wireframe image](insert image here)
+![Mobile wireframe image](assets/images/read-me/got-wf-phone.png)
 
 [Back to top](<#Contents>)
 
