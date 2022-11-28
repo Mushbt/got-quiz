@@ -104,3 +104,11 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
 
 ![End image](Insert image here)
 [back to top](<#contents>)
+
+## Future Features 
+
+* A high-score section where users can submit their scores and also see other users scores.
+* Background music which will be the game of thrones theme tune.
+* A link to other quizes, which will fall under the Game of Thrones theme such as, a 'House of Dragons Quiz' based on the new series which is a prequel from the original show.
+
+[back to top](<#contents>)
