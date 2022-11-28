@@ -112,3 +112,13 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
 * A link to other quizes, which will fall under the Game of Thrones theme such as, a 'House of Dragons Quiz' based on the new series which is a prequel from the original show.
 
 [back to top](<#contents>)
+
+# Technologies Used
+* [HTML5](https://www.w3schools.com/html/) - Used for the content and structure of the site.
+* [CSS](https://www.w3schools.com/css/) - Used for styling the site.
+* [JS](https://www.w3schools.com/JS/) - Used to program the behavior of the site. 
+* [Balsamiq](https://balsamiq.com/wireframes/) - Used to create the wireframes.
+* [Gitpod](https://www.gitpod.io/#get-started) - Used to deploy the website.
+* [Github](https://github.com/) - Used to host and edit the website.
+
+[Back to top](<#contents>)
