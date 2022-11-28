@@ -86,7 +86,7 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
     * Users will the see the page title (The Game of Thrones Quiz) at the top which is self-explanatory.
     * Under the image, there is a 'Lets Play' button which will take them to the main game.
 
-![Home image](Insert image here)
+![Home image](assets/images/read-me/got-home.png)
 [back to top](<#contents>) 
 
 * ### Game
@@ -96,7 +96,7 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
     * Just under the title, there is a heads up display (HUD) which will show the user information on how many questions they have answered out of 10, and also how many points they have been awarded.
     * Under the HUD, users will see the first question and 4 possible choices from which they can choose 1 from. A new question will load everytime they have chosen an answer.
 
-![Game image](Insert image here)
+![Game image](assets/images/read-me/got-game.png)
 [back to top](<#contents>)
 
 * ### End
@@ -106,7 +106,7 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
     * Users will see their final score.
     * There are 2 buttons which the user can choose from. One is to play again, which will reload the game, and the other is to go home, redirecting the user to the home page.
 
-![End image](Insert image here)
+![End image](assets/images/read-me/got-end.png)
 [back to top](<#contents>)
 
 ## Future Features 
