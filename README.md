@@ -135,29 +135,29 @@ The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](insert image here)
+![W3C Validator test result](assets/images/read-me/html-validator.png)
 
 * Game page
 
-![W3C Validator test result](insert image here)
+![W3C Validator test result](assets/images/read-me/html-validator.png)
 
 * End page
 
-![W3C Validator test result](insert image here)
+![W3C Validator test result](assets/images/read-me/html-validator.png)
 
 The CSS validator results for each page are below:
 
 * Home page
 
-![CSS Validator test result](insert image here)
+![CSS Validator test result](assets/images/read-me/css-validator.png)
 
 * Game page 
 
-![CSS Validator test result](insert image here)
+![CSS Validator test result](assets/images/read-me/css-validator.png)
 
 * End page 
 
-![CSS Validator test result](insert image here)
+![CSS Validator test result](assets/images/read-me/css-validator.png)
 
 * Game page
 
