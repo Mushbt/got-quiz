@@ -233,8 +233,8 @@ No visible errors occured.
 
    * JS - 
       * Game page
-   ![JSHint Validator test results](insert image here)
-      * * The warnings showed in the image were resolved by adding the following code to the top of the JS file: /*jshint esversion: 6 */. 
+   ![JSHint Validator test results](assets/images/read-me/jshint-game-resolved.png)
+      * 29 warnings showed up during validation. 27 of them were resolved adding the following code to the top of the JS file: /*jshint esversion: 6 */. The 2 unresolved can be found down below in the [Unresolved](#unresolved) section.
 
       * End page 
    ![JSHint Validator test results](assets/images/read-me/jshint-end.png)
