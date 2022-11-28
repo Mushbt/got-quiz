@@ -72,7 +72,7 @@ When entering the site, users will be on the [home page](index.html) which is th
 * ### Color Scheme
      The color scheme was chosen based on the colors from one of the original Game of Thrones logos. The colors were black and white, but decided to use the color snow instead of white with reference to 'Jon Snow' who was a main character on the show. I added details of Burgundy because I thought it would complement the main colors of Black and White. The reason burgundy was chosen was because after some research online, I found that burgundy was the most used shade of color throught the show.
 
-![Color Palette image](insert image here)     
+![Color Palette image](assets/images/read-me/color-pal.png)     
      
 [Back to top](<#contents>)
 
