@@ -167,3 +167,9 @@ The CSS validator results for each page are below:
 
 * The responsive design tests were done using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/) which allows you to test the site on numerous devices which range from desktop screens to mobile phones.
 * Site link was sent to friends and family and also posted on the Slack portal.
+
+## Browser Compatibility
+
+The Game of Thrones Quiz was tested on the following browsers:
+Google Chrome, Microsoft Edge, Safari, Mozilla Firefox, Samsung Internet, and Huawei Browser.
+No visible errors occured.
