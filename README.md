@@ -231,7 +231,14 @@ No visible errors occured.
    ![W3C HTML Validator test results](assets/images/read-me/end-html-val.png)
       * The warning showed an empty heading. This was resolved by adding a heading text to the h1 element.
 
-         
+   * JS - 
+      * Game page
+   ![JSHint Validator test results](insert image here)
+      * * The warnings showed in the image were resolved by adding the following code to the top of the JS file: /*jshint esversion: 6 */. 
+
+      * End page 
+   ![JSHint Validator test results](assets/images/read-me/jshint-end.png)
+      * The warnings showed in the image were resolved by adding the following code to the top of the JS file: /*jshint esversion: 6 */.        
 
 * ### Unresolved
    * JS - 
