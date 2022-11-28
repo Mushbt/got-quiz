@@ -238,7 +238,7 @@ No visible errors occured.
    ![JSHint Validator test results](insert image here)  
 
       * End page
-   ![JSHint Validator test results](insert image here)
+   ![JSHint Validator test results](assets/images/read-me/jshint-end.png)
 
 ## Additional Testing
 ### Lighthouse
