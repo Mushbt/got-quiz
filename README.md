@@ -240,3 +240,25 @@ No visible errors occured.
 
       * End page
    ![JSHint Validator test results](insert image here)
+
+## Additional Testing
+### Lighthouse
+The site was tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test the pages for the following:
+* Performance - How the page performs whilst loading.
+* Accessibility - Is the site acccessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
+
+* The results for the tests are below:
+* Home page- 
+
+![Lighthouse test results](insert image here)
+
+* Game page -
+
+![Lighthouse test results](insert image here)
+
+* End page -
+
+![Lighthouse test results](insert image here)
+   
