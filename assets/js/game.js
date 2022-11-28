@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const question = document.querySelector('#question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const questionsCounter = document.getElementById('questionCounter');
@@ -291,11 +293,11 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset["number"];
 
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-        const correctAnswer = choices[currentQuestion.answer - 1]
+        const correctAnswer = choices[currentQuestion.answer - 1];
         if(classToApply === "correct") {
             incrementScore(CORRECT_SCORE);
         } else if (classToApply === "incorrect") {
-            correctAnswer.parentElement.classList.add("correct")
+            correctAnswer.parentElement.classList.add("correct");
         }
 
         selectedChoice.parentElement.classList.add(classToApply);

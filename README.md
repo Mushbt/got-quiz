@@ -159,13 +159,9 @@ The CSS validator results for each page are below:
 
 ![CSS Validator test result](assets/images/read-me/css-validator.png)
 
-* Game page
 
-![JSHint test reult](insert image here)
-
-* End page 
-
-![JSHint test reult](insert image here)
+### JSHint
+ * 
 
 ## Responsiveness Test
 
