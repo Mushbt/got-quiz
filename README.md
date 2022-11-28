@@ -51,6 +51,8 @@ The wireframes for The Game of Thrones Quiz were produced in [Balsamiq](https://
 
 ![Desktop wireframe image](insert image here)
 
+![Ipad wireframe image](insert image here)
+
 ![Mobile wireframe image](insert image here)
 
 [Back to top](<#Contents>)
