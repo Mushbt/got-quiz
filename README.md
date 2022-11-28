@@ -70,4 +70,17 @@ When entering the site, users will be on the [home page](index.html) which is th
 
 ![Colour Palette image](insert image here)     
      
+[Back to top](<#contents>)
 
+# Features
+
+The Game of Thrones quiz was made to be simple and easy to play. The thought behind this was that users should not be overwhelmed with complicated instructions or navigation. It should be a simple fun quiz which does not require any effort to play it.
+
+* ### Home
+
+    * This is the landing page, where potential visitors will come to once they have entered the site. I have chosen an image with 'The Iron Throne' which is what the original Game of Thrones series is about.
+    * Users will the see the page title (The Game of Thrones Quiz) at the top which is self-explanatory.
+    * Under the image, there is a 'Lets Play' button which will take them to the main game.
+
+![Home image](Insert image here)
+[back to top](<#contents>) 
