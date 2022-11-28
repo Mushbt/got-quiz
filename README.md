@@ -28,3 +28,20 @@ The live link to the Github repository can be found here - (https://mushbt.githu
 * [**Media**](<#media>)
 * [**Acknowledgements**](<#acknowledgements>)
 
+# User Experience (UX)
+
+## User Stories
+
+* As a user, I want to know what the website is about as soon as I enter the site.
+* As a user, I want to be able easily enter the game page.
+* As a user, I want to be able to play the game and test my knowledge in a fun and simple way.
+* As a user, I want to be able to see if my answer is correct.
+* As a user, I want to be able to see if my answer is incorrect.
+* As a user, I want to see what was the correct answer if I have chosen an incorrect answer.
+* As a user, I want to be able to play the game again.
+
+
+[Back to top](<#Contents>)
+
+
+
