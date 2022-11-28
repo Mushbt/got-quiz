@@ -11,6 +11,10 @@ header {
     justify-content: center;
 }
 
+.qtitle {
+    color: snow;
+}
+
 h1 {
     font-family: 'Cinzel', serif;
     color: #800020;
