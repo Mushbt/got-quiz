@@ -84,3 +84,13 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
 
 ![Home image](Insert image here)
 [back to top](<#contents>) 
+
+* ### Game
+
+    * This is the game page, where the user will be able to play the quiz.
+    * At the top of the page, the game title is still visible.
+    * Just under the title, there is a heads up display (HUD) which will show the user information on how many questions they have answered out of 10, and also how many points they have been awarded.
+    * Under the HUD, users will see the first question and 4 possible choices from which they can choose 1 from. A new question will load everytime they have chosen an answer.
+
+![Game image](Insert image here)
+[back to top](<#contents>)  
