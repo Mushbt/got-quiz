@@ -220,3 +220,23 @@ No visible errors occured.
 
 ## Known Bugs
 * ### Resolved
+
+   * During validation, a few errors where highlighted. A brief decription is below:
+
+   * HTML - 
+      * Game page
+   ![W3C HTML Validator test results](insert image here)
+
+      * End page
+   ![W3C HTML Validator test results](insert image here)
+
+* ### Unresolved
+   * JS - 
+      * Home page 
+   ![JSHint Validator test results](insert image here)
+
+      * Game page
+   ![JSHint Validator test results](insert image here)  
+
+      * End page
+   ![JSHint Validator test results](insert image here)
