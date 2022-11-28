@@ -93,4 +93,14 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
     * Under the HUD, users will see the first question and 4 possible choices from which they can choose 1 from. A new question will load everytime they have chosen an answer.
 
 ![Game image](Insert image here)
-[back to top](<#contents>)  
+[back to top](<#contents>)
+
+* ### End
+
+    * This is the end page, where users will be redirected after answering a total of 10 questions.
+    * At the top of the page, the title is still visible.
+    * Users will see their final score.
+    * There are 2 buttons which the user can choose from. One is to play again, which will reload the game, and the other is to go home, redirecting the user to the home page.
+
+![End image](Insert image here)
+[back to top](<#contents>)
