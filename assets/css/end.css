@@ -5,7 +5,7 @@
     padding: 0;
     background-color: black;
 }
-
+/*Headings*/
 header {
     display: flex;
     justify-content: center;
@@ -17,12 +17,12 @@ h1 {
     font-size: 4rem;
     padding-bottom: 75px;
 }
-
+/*Final score section*/
 #finalScore {
 display: flex;
 justify-content: center;
 }
-
+/*Home and Play again buttons*/
 .btn {
     border: 3px solid #800020;
     font-family: 'Cinzel', serif;
@@ -60,7 +60,7 @@ justify-content: center;
     margin: 0 auto;
     padding: 2rem;
 }
-
+/*Media Queries*/
 @media screen and (max-width: 2000px) {
     h1 {
         font-size: 3rem;
