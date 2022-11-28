@@ -252,7 +252,7 @@ let questions = [
         choice4: 'Tyrion Lannister',
         answer: 2,
     },
-]
+];
 
 const CORRECT_SCORE = 1;
 const MAX_QUESTIONS = 10;
@@ -270,7 +270,7 @@ getNewQuestion = ()=> {
         return window.location.assign('end.html');
     }
     questionCounter++;
-    questionsCounter.innerText = `${questionCounter} / ${MAX_QUESTIONS}`
+    questionsCounter.innerText = `${questionCounter} / ${MAX_QUESTIONS}`;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -289,7 +289,7 @@ choices.forEach(choice => {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedChoice = e.target
+        const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";

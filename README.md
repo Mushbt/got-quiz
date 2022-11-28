@@ -161,7 +161,7 @@ The CSS validator results for each page are below:
 
 
 ### JSHint
- * 
+ * The Javascript files were validated through JSHint. There were multiple warnings for: ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). After some research online, I saw that I need to add /*jshint esversion: 6 */ on the top of the JS file and the warning will disappear. I also had a few warnings for missing semi-colans which have also been rectified. There were some unresolved warnings which have been listed below in the [Unresolved](#unresolved) section.
 
 ## Responsiveness Test
 
