@@ -53,3 +53,11 @@ The wireframes for The Game of Thrones Quiz were produced in [Balsamiq](https://
 
 [Back to top](<#Contents>)
 
+## Site Structure
+
+When entering the site, users will be on the [home page](index.html) which is the Landing page. There is a 'Lets Play' button which users can click to enter the [game page](game.html). Once on the game page, users will be faced with the first question from the quiz. Everytime they click on an answer, the next question will load. Once 10 questions have been answered, they will be redirected to the [end page](end.html). On the end page, they will see their total score and have the option to either play again which will reload the quiz, or, they can go home which will redirect them to the home page.
+
+[Back to top](<#Contents>)
+
+
+
