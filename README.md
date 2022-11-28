@@ -162,3 +162,8 @@ The CSS validator results for each page are below:
 * End page 
 
 ![JSHint test reult](insert image here)
+
+## Responsiveness Test
+
+* The responsive design tests were done using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/) which allows you to test the site on numerous devices which range from desktop screens to mobile phones.
+* Site link was sent to friends and family and also posted on the Slack portal.
