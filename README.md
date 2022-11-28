@@ -122,3 +122,43 @@ The Game of Thrones quiz was made to be simple and easy to play. The thought beh
 * [Github](https://github.com/) - Used to host and edit the website.
 
 [Back to top](<#contents>)
+
+# Testing
+## Code Validation
+The Stockholm FC site has been tested in depth. All the code has been run through the [W3C html Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [JSHint Validator](https://jshint.com/).  
+
+The HTML validator results for each page are below:
+
+* Home page
+
+![W3C Validator test result](insert image here)
+
+* Game page
+
+![W3C Validator test result](insert image here)
+
+* End page
+
+![W3C Validator test result](insert image here)
+
+The CSS validator results for each page are below:
+
+* Home page
+
+![CSS Validator test result](insert image here)
+
+* Game page 
+
+![CSS Validator test result](insert image here)
+
+* End page 
+
+![CSS Validator test result](insert image here)
+
+* Game page
+
+![JSHint test reult](insert image here)
+
+* End page 
+
+![JSHint test reult](insert image here)
