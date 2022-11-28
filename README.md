@@ -4,7 +4,7 @@ The Game Of Thrones Quiz has been designed to be a fun test of knowledge for any
 
 The live link to the Github repository can be found here - (https://mushbt.github.io/got-quiz/)
 
-![Game of Thrones Quiz shown on a range of devices](image here)
+![Game of Thrones Quiz shown on a range of devices](assets/images/read-me/am-i-responsive-got.png)
 
 # Contents
 
