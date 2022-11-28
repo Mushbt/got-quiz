@@ -15,7 +15,7 @@ h1 {
     font-family: 'Cinzel', serif;
     color: #800020;
     font-size: 4rem;
-    padding-bottom: 75px;
+    padding-bottom: 40px;
 }
 
 h2 {
@@ -34,17 +34,16 @@ p {
 }
 
 .container {
-    width: 100vw;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100rem;
     margin: 0 auto;
     padding: 2rem;
 }
 .choice-container {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
     border: 3px solid snow;
     background-color: black;
@@ -94,17 +93,26 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width: 1425px) {
+@media screen and (max-width: 2425px) {
     h2 {
         font-size: 1.8rem;
     }
 
     .choice-text {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .hud-main-text {
+        font-size: 1.5rem;
+    }
+
+    .choice-container {
+        min-width: 40rem;
+        height: fit-content;
     }
 }
 
-@media screen and (max-width: 1308px) {
+@media screen and (max-width: 1708px) {
     .choice-container {
         width: 500px;
     }
@@ -114,9 +122,8 @@ p {
     }
 
     .choice-text {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
-    
 }
 
 @media screen and (max-width: 905px) {

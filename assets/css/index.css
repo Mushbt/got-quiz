@@ -65,6 +65,13 @@ img {
     text-align: center;
 }
 
+@media screen and (max-width: 1700px) {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 761px){
     h1 {
         font-size: 2rem;
@@ -73,8 +80,8 @@ img {
 
 @media screen and (max-width: 527px) {
     img {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 }
 
