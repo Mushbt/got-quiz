@@ -223,7 +223,9 @@ No visible errors occured.
 
    * HTML - 
       * Game page
+
    ![W3C HTML Validator test results](assets/images/read-me/html-game-val.png)
+     
       * Warning 1 showed an empty heading. This was resolved by adding a heading text to the h1 element.
       * Warning 2 and 3 was resolved by removing the dash between hud and item.
 
@@ -244,6 +246,7 @@ No visible errors occured.
    * JS - 
      
       * Game page
+
    ![JSHint Validator test results](assets/images/read-me/jshint-game.png)
       * Two warnings showed during validation. They were for writing code in dot notation instead. These do not affect functionality of site.
 
@@ -258,15 +261,15 @@ The site was tested using [Google Lighthouse](https://developers.google.com/web/
 * The results for the tests are below:
 * Home page- 
 
-![Lighthouse test results](insert image here)
+![Lighthouse test results](assets/images/read-me/got-home-lh.png)
 
 * Game page -
 
-![Lighthouse test results](insert image here)
+![Lighthouse test results](assets/images/read-me/got-game-lh.png)
 
 * End page -
 
-![Lighthouse test results](insert image here)
+![Lighthouse test results](assets/images/read-me/got-end-lh.png)
 
 # Deployment
 
