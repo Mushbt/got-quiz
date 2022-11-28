@@ -281,13 +281,13 @@ The site was deployed to GitHub pages. The steps to deploy the site are as follo
   3. Under **Source**, select the branch to **main**, then click **save**.
   4. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-![GitHub pages deployed image](insert image here)
+![GitHub pages deployed image](assets/images/read-me/got-deploy.png)
 
   The live link to the Github repository can be found here - (https://mushbt.github.io/got-quiz/)
 
 ### **To fork the repository on GitHub**
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changed without affecting the original repository. The steps to fork the repository are as followed:
-1. Log in to **GitHub** and locate the [repository](insert link here).
+1. Log in to **GitHub** and locate the [repository](assets/images/read-me/got-fork.png).
 2. On the right hand side of the page inline, there should be a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 ![GitHub forking process image](insert image here)
 
