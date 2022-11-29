@@ -119,3 +119,19 @@ p {
         font-size: 4rem;
     }
 }
+
+/* For large screens from 1366px wide and down */
+@media screen and (max-width: 1366px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #hudItem {
+        font-size: 1.75rem;
+    }
+
+    .choice-container {
+        font-size: 1.5rem;
+    }
+}
+
