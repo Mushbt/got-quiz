@@ -159,5 +159,26 @@ p {
     }
 }
 
+/* For medium screens from 800px wide and down */
+@media screen and (max-width: 800px) {
+    .qtitle {
+        font-size: 3rem;
+        padding-bottom: 300px;
+    }
+
+    .hud-main-text {
+        font-size: 3rem;
+    }
+
+    #question {
+        font-size: 1.7rem;
+    }
+
+    .choice-container {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+}
+
 
 
