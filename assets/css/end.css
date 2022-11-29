@@ -85,8 +85,12 @@ h1 {
 
 /* For medium screens from 1366px wide and down */
 @media screen and (max-width: 1366px) {
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 50px;
+    }
     .btn {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 

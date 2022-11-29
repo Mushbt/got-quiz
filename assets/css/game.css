@@ -124,16 +124,25 @@ p {
 
 /* For medium screens from 1366px wide and down */
 @media screen and (max-width: 1366px) {
+    .qtitle {
+        padding-bottom: 20px;
+    }
+
     h1 {
         font-size: 3rem;
     }
 
     #hudItem {
-        font-size: 1.75rem;
+        font-size: 1rem;
+    }
+
+    #question {
+        font-size: 1rem;
     }
 
     .choice-container {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
 

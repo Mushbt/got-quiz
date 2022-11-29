@@ -72,12 +72,12 @@ img {
 /* For large screens from 2500px wide and down */
 @media screen and (max-width: 2500px) {
     h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     img {
-        height: 700px;
-        width: 700px;
+        height: 600px;
+        width: 600px;
     }
 
     .playbtn {
@@ -100,25 +100,22 @@ img {
 /* For medium screens from 1366px wide and down */
 @media screen and (max-width: 1366px) {
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
+        padding-bottom: 40px;
     }
 
     img {
-        height: 450px;
-        width: 450px;
+        height: 350px;
+        width: 350px;
     }
 
     .playbtn {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
 /* For medium screens from 1024px wide and down */
 @media screen and (max-width: 1024px) {
-    h1 {
-        font-size: 3rem;
-    }
-
     img {
         height: 320px;
         width: 320px;
