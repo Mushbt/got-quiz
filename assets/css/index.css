@@ -5,6 +5,7 @@
     padding: 0;
     background-color: black;
 }
+
 /*Headings*/
 header {
     display: flex;
@@ -32,6 +33,7 @@ img {
     justify-content: center;
     padding-bottom: 75px;
 }
+
 /*CTA Lets play button*/
 .playbtn {
     border: 3px solid #800020;
@@ -64,6 +66,7 @@ img {
     display: block;
     text-align: center;
 }
+
 /*Media Queries*/
 
 /* For large screens from 1920px wide and down */
@@ -90,7 +93,7 @@ img {
 
     img {
         height: 500px;
-        width:  500px;
+        width: 500px;
     }
 }
 

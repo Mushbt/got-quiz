@@ -11,8 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 //Quiz questions
-let questions = [
-    {
+let questions = [{
         question: "Winterfell is the home of which family?",
         choice1: 'Tully',
         choice2: 'Stark',
@@ -78,18 +77,18 @@ let questions = [
     },
     {
         question: "The warrior eunuchs are known as the:",
-        choice1 : 'White Walkers',
-        choice2 : 'Septons',
-        choice3 : 'Unsullied',
-        choice4 : 'Varys',
+        choice1: 'White Walkers',
+        choice2: 'Septons',
+        choice3: 'Unsullied',
+        choice4: 'Varys',
         answer: 3,
     },
     {
         question: "Warging is:",
-        choice1 : 'Entering the mind of an animal',
-        choice2 : 'The power to create more White Walkers',
-        choice3 : 'A skill Arya possesses',
-        choice4 : "recruiting for the Night's Watch",
+        choice1: 'Entering the mind of an animal',
+        choice2: 'The power to create more White Walkers',
+        choice3: 'A skill Arya possesses',
+        choice4: "recruiting for the Night's Watch",
         answer: 1,
     },
     {
@@ -263,9 +262,9 @@ startGame = () => {
     availableQuestions = [...questions];
     getNewQuestion();
 };
-getNewQuestion = ()=> {
+getNewQuestion = () => {
 
-    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         return window.location.assign('end.html'); //After 10 questions redirecting to end page
     }
@@ -286,7 +285,7 @@ getNewQuestion = ()=> {
 
 choices.forEach(choice => {
     choice.addEventListener("click", e => { //Event Listener for when user clicks on an answer
-        if(!acceptingAnswers) return;
+        if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
@@ -294,19 +293,19 @@ choices.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         const correctAnswer = choices[currentQuestion.answer - 1];
-        if(classToApply === "correct") {
+        if (classToApply === "correct") {
             incrementScore(CORRECT_SCORE); //Points increase if choice is correct
         } else if (classToApply === "incorrect") {
             correctAnswer.parentElement.classList.add("correct"); // Show correct answer if incorrect answer is choses
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-    
+
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply); 
+            selectedChoice.parentElement.classList.remove(classToApply);
             correctAnswer.parentElement.classList.remove('correct'); // Remove green highlight of correct answer once new question is loaded
             getNewQuestion();
-        }, 1000);    
+        }, 1000);
     });
 });
 

@@ -5,6 +5,7 @@
     padding: 0;
     background-color: black;
 }
+
 /*Headings*/
 header {
     display: flex;
@@ -17,11 +18,13 @@ h1 {
     font-size: 4rem;
     padding-bottom: 75px;
 }
+
 /*Final score section*/
 #finalScore {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 /*Home and Play again buttons*/
 .btn {
     border: 3px solid #800020;
@@ -60,6 +63,7 @@ justify-content: center;
     margin: 0 auto;
     padding: 2rem;
 }
+
 /*Media Queries*/
 /* For large screens from 2500px wide and down */
 @media screen and (max-width: 2500px) {
@@ -104,7 +108,9 @@ justify-content: center;
         padding-bottom: 300px;
     }
 
-    .btn {font-size: 2rem;}
+    .btn {
+        font-size: 2rem;
+    }
 }
 
 /* For medium screens from 600px wide and down */
