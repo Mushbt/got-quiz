@@ -94,3 +94,19 @@ img {
     }
 }
 
+/* For medium screens from 1366px wide and down */
+@media screen and (max-width: 1366px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    img {
+        height: 450px;
+        width: 450px;
+    }
+
+    .playbtn {
+        font-size: 2rem;
+    }
+}
+
