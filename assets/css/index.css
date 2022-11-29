@@ -82,7 +82,7 @@ img {
     }
 }
 
-/* For large to screens from 1680px wide and down */
+/* For large to medium screens from 1680px wide and down */
 @media screen and (max-width: 1680px) {
     h1 {
         font-size: 5rem;

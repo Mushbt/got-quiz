@@ -113,14 +113,14 @@ p {
     }
 }
 
-/* For large screens from 1600px wide and down */
+/* For large to medium screens from 1600px wide and down */
 @media screen and (max-width: 1600px) {
     h1 {
         font-size: 4rem;
     }
 }
 
-/* For large screens from 1366px wide and down */
+/* For medium screens from 1366px wide and down */
 @media screen and (max-width: 1366px) {
     h1 {
         font-size: 3rem;
@@ -134,4 +134,6 @@ p {
         font-size: 1.5rem;
     }
 }
+
+
 
