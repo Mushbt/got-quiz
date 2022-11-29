@@ -1,6 +1,6 @@
 # Game Of Thrones Quiz
 
-The Game Of Thrones Quiz has been designed to be a fun test of knowledge for any fans of the show. Users will be able to see feedback right away on which question they got right and if they have chosen a wrong answer, it will show them the correct one.
+The Game Of Thrones Quiz has been designed to be a fun test of knowledge for any fans of the show. Users will be able to see feedback right away on which questions they got right or wrong.
 
 The live link to the Github repository can be found here - (https://mushbt.github.io/got-quiz/)
 
@@ -33,13 +33,13 @@ The live link to the Github repository can be found here - (https://mushbt.githu
 ## User Stories
 
 * As a user, I want to know what the website is about as soon as I enter the site.
-* As a user, I want to be able easily enter the game page.
+* As a user, I want to be able to easily enter the game page.
 * As a user, I want to be able to play the game and test my knowledge in a fun and simple way.
 * As a user, I want to be able to see if my answer is correct.
 * As a user, I want to be able to see if my answer is incorrect.
 * As a user, I want to see what was the correct answer if I have chosen an incorrect answer.
 * As a user, I want to know what my score is.
-* As a user, I want to know how many questions I have left to complete quiz.
+* As a user, I want to know how many questions I have left to complete the quiz.
 * As a user, I want to be able to play the game again.
 
 
@@ -67,10 +67,9 @@ When entering the site, users will be on the [home page](index.html) which is th
 
 * ### Typography
     * The font chosen was 'Cinzel'. I chose this font because it was the closest font to the original Game of Thrones font. Cinzel falls back to to serif.
-    Cinzel is an easy on the eye type of font and is easy to read.
 
 * ### Color Scheme
-     The color scheme was chosen based on the colors from one of the original Game of Thrones logos. The colors were black and white, but decided to use the color snow instead of white with reference to 'Jon Snow' who was a main character on the show. I added details of Burgundy because I thought it would complement the main colors of Black and White. The reason burgundy was chosen was because after some research online, I found that burgundy was the most used shade of color throught the show.
+     The color scheme was chosen based on the colors from one of the original Game of Thrones logos. The colors were black and white, but decided to use the color snow instead of white with reference to 'Jon Snow' who was a main character on the show. I added details of burgundy because I thought it would complement the main colors of black and white. The reason burgundy was chosen was because after some research online, I found that burgundy was the most used shade of color through out the show.
 
 ![Color Palette image](assets/images/read-me/color-pal.png)     
      
@@ -199,7 +198,7 @@ No visible errors occured.
    * If the answer chosen by the user is incorrect, the choice button will turn red.
 
    <br>
-* As a user, I want to see what was the correct answer if I have chosen an incorrect answer.
+* As a user, I want to see what was the correct answer was if I have chosen an incorrect answer.
    * If the answer chosen by the user is incorrect, the choice button they chose will turn red and the correct answer will turn green.
 
    <br>
@@ -209,7 +208,7 @@ No visible errors occured.
 
    <br>
 * As a user, I want to know how many questions I have left to complete quiz.
-   * On the top of the quiz, there is a HUD which shows the user how many questions of 10 they have answered. 10 being the maximum amount of questions they can answer per game.
+   * On the top of the quiz, there is a HUD which shows the user how many questions out of 10 they have answered. 10 being the maximum amount of questions they can answer per game.
 
    <br>
 * As a user, I want to be able to play the game again.
@@ -237,7 +236,7 @@ No visible errors occured.
    * JS - 
       * Game page
    ![JSHint Validator test results](assets/images/read-me/jshint-game-resolved.png)
-      * 29 warnings showed up during validation. 27 of them were resolved adding the following code to the top of the JS file: /*jshint esversion: 6 */. The 2 unresolved can be found down below in the [Unresolved](#unresolved) section.
+      * 29 warnings showed up during validation. 27 of them were resolved by adding the following code to the top of the JS file: /*jshint esversion: 6 */. The 2 unresolved can be found down below in the [Unresolved](#unresolved) section.
 
       * End page 
    ![JSHint Validator test results](assets/images/read-me/jshint-end.png)
@@ -307,10 +306,10 @@ The steps to create a local clone of this project are as followed:
 ### Content
 
 * The fonts came from [Google Fonts](https://fonts.google.com/).
-* The colors were chosen based on colors seen in the original Game of Thrones.[Game of Thrones](https://www.imdb.com/title/tt0944947/).
+* The colors were chosen based on colors seen in the original [Game of Thrones](https://www.imdb.com/title/tt0944947/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 * Gitpod Template for the project was generated from [Code Institute](https://codeinstitute.net/)
-* [James Q Quick tutorial for building a quiz app](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&ab_channel=JamesQQuick)
+* Quiz structure came from [James Q Quick tutorial for building a quiz app](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&ab_channel=JamesQQuick)
 
 ### Media 
 
