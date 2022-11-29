@@ -66,10 +66,10 @@ img {
 }
 /*Media Queries*/
 
-/* For largescreens from 1900px wide and down */
-@media screen and (max-width: 1900px) {
+/* For large screens from 1920px wide and down */
+@media screen and (max-width: 1920px) {
     h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     img {
@@ -78,7 +78,19 @@ img {
     }
 
     .playbtn {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+}
+
+/* For large to screens from 1680px wide and down */
+@media screen and (max-width: 1680px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    img {
+        height: 500px;
+        width:  500px;
     }
 }
 
