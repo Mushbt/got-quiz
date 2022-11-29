@@ -126,3 +126,19 @@ img {
     }
 }
 
+/* For medium screens from 800px wide and down */
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 3.5rem;
+        padding-bottom: 275px;
+    }
+
+    img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .playbtn {
+        font-size: 2rem;
+    }
+}
