@@ -149,3 +149,15 @@ img {
         padding-bottom: 225px;
     }
 }
+
+/* For medium screens from 600px wide and down */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 200px;
+    }
+
+    .playbtn {
+        font-size: 1.5rem;
+    }
+}
