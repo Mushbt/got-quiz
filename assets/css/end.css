@@ -78,3 +78,10 @@ justify-content: center;
         font-size: 2.7rem;
     }
 }
+
+/* For large screens from 1366px wide and down */
+@media screen and (max-width: 1366px) {
+    .btn {
+        font-size: 2rem;
+    }
+}
