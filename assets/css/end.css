@@ -140,3 +140,10 @@ justify-content: center;
         font-size: 1rem;
     }
 }
+
+/* For small screens from 384px wide and down */
+@media screen and (max-width: 384px) {
+    .btn {
+        font-size: 0.9rem;
+    }
+}
