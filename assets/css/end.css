@@ -97,3 +97,12 @@ justify-content: center;
         margin-bottom: 25px;
     }
 }
+
+/* For medium screens from 800px wide and down */
+@media screen and (max-width: 800px) {
+    h1 {
+        padding-bottom: 300px;
+    }
+
+    .btn {font-size: 2rem;}
+}
