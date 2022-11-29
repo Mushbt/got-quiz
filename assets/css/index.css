@@ -65,28 +65,20 @@ img {
     text-align: center;
 }
 /*Media Queries*/
-@media screen and (max-width: 1700px) {
-    img {
-        height: 300px;
-        width: 300px;
-    }
-}
 
-@media screen and (max-width: 761px){
+/* For largescreens from 1900px wide and down */
+@media screen and (max-width: 1900px) {
     h1 {
-        font-size: 2rem;
+        font-size: 7rem;
     }
-}
 
-@media screen and (max-width: 527px) {
     img {
-        height: 200px;
-        width: 200px;
+        height: 700px;
+        width: 700px;
+    }
+
+    .playbtn {
+        font-size: 3rem;
     }
 }
 
-@media screen and (max-width: 330px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-}
