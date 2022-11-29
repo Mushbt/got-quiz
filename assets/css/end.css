@@ -152,3 +152,14 @@ justify-content: center;
         font-size: 0.9rem;
     }
 }
+
+/* For small screens from 320px wide and down */
+@media screen and (max-width: 320px) {
+    h1 {
+        padding-bottom: 100px;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+    }
+}

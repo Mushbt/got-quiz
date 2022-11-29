@@ -198,7 +198,7 @@ p {
     }
 }
 
-/* For smallscreens from 527px wide and down */
+/* For small screens from 527px wide and down */
 @media screen and (max-width: 527px) {
     .qtitle {
         font-size: 2rem;
@@ -217,7 +217,7 @@ p {
     }
 }
 
-/* For smallscreens from 414px wide and down */
+/* For small screens from 414px wide and down */
 @media screen and (max-width: 414px) {
     .hud-prefix {
         font-size: 1.25rem;
