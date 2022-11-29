@@ -72,16 +72,28 @@ justify-content: center;
     }
 }
 
-/* For large screens from 1600px wide and down */
+/* For large to medium screens from 1600px wide and down */
 @media screen and (max-width: 1600px) {
     .btn {
         font-size: 2.7rem;
     }
 }
 
-/* For large screens from 1366px wide and down */
+/* For medium screens from 1366px wide and down */
 @media screen and (max-width: 1366px) {
     .btn {
         font-size: 2rem;
+    }
+}
+
+/* For medium screens from 1024px wide and down */
+@media screen and (max-width: 1024px) {
+    #finalScore {
+        padding-bottom: 5px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
     }
 }
