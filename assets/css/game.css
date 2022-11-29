@@ -256,3 +256,26 @@ p {
         margin-bottom: 0.5rem;
     }
 }
+
+/* For small screens from 360px wide and down */
+@media screen and (max-width: 360px) {
+    .qtitle {
+        font-size: 1.2rem;
+    }
+
+    .hud-prefix {
+        font-size: 1.1rem;
+    }
+
+    .hud-main-text {
+        font-size: 1.1rem;
+    }
+
+    #question {
+        font-size: 1.1rem;
+    }
+
+    .choice-container {
+        font-size: 0.75rem;
+    }
+}
