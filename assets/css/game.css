@@ -236,3 +236,23 @@ p {
         margin-bottom: 1rem;
     }
 }
+
+/* For small screens from 384px wide and down */
+@media screen and (max-width: 384px) {
+    .qtitle {
+        font-size: 1.5rem;
+        padding-bottom: 25px;
+    }
+
+    .hud-prefix {
+        font-size: 1.10rem;
+    }
+
+    .hud-main-text {
+        font-size: 1.10rem;
+    }
+
+    .choice-container {
+        margin-bottom: 0.5rem;
+    }
+}
