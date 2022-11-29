@@ -180,5 +180,9 @@ p {
     }
 }
 
-
-
+/* For medium screens from 768px wide and down */
+@media screen and (max-width: 768px) {
+    .qtitle {
+        padding-bottom: 150px;
+    }
+}
