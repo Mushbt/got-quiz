@@ -142,3 +142,10 @@ img {
         font-size: 2rem;
     }
 }
+
+/* For medium screens from 768px wide and down */
+@media screen and (max-width: 768px) {
+    h1 {
+        padding-bottom: 225px;
+    }
+}
