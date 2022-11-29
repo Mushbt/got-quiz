@@ -161,3 +161,11 @@ img {
         font-size: 1.5rem;
     }
 }
+
+/* For small screens from 527px wide and down */
+@media screen and (max-width: 527px) {
+    h1 {
+        font-size: 2rem;
+        padding-bottom: 100px;
+    }
+}
