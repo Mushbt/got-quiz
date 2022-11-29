@@ -69,8 +69,8 @@ img {
 
 /*Media Queries*/
 
-/* For large screens from 1920px wide and down */
-@media screen and (max-width: 1920px) {
+/* For large screens from 2500px wide and down */
+@media screen and (max-width: 2500px) {
     h1 {
         font-size: 6rem;
     }
@@ -168,7 +168,7 @@ img {
 /* For small screens from 527px wide and down */
 @media screen and (max-width: 527px) {
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-bottom: 100px;
     }
 }
@@ -176,7 +176,7 @@ img {
 /* For small screens from 384px wide and down */
 @media screen and (max-width: 384px) {
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         padding-bottom: 75px;
     }
 

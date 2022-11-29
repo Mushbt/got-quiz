@@ -104,8 +104,8 @@ p {
 
 
 /*Media Queries*/
-/* For large screens from 1920px wide and down */
-@media screen and (max-width: 1920px) {
+/* For large screens from 2500px wide and down */
+@media screen and (max-width: 2500px) {
     h1 {
         font-size: 5rem;
     }
@@ -203,7 +203,7 @@ p {
 /* For small screens from 527px wide and down */
 @media screen and (max-width: 527px) {
     .qtitle {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hud-main-text {
@@ -242,7 +242,6 @@ p {
 /* For small screens from 384px wide and down */
 @media screen and (max-width: 384px) {
     .qtitle {
-        font-size: 1.5rem;
         padding-bottom: 25px;
     }
 
