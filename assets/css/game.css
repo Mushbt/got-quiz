@@ -107,4 +107,9 @@ p {
     h1 {
         font-size: 7rem;
     }
+
+    #hudItem {
+        font-size: 3rem;
+    }
+
 }
