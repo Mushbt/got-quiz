@@ -169,3 +169,20 @@ img {
         padding-bottom: 100px;
     }
 }
+
+/* For small screens from 384px wide and down */
+@media screen and (max-width: 384px) {
+    h1 {
+        font-size: 1.75rem;
+        padding-bottom: 75px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .playbtn {
+        font-size: 1.25rem;
+    }
+}
