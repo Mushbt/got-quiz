@@ -279,3 +279,31 @@ p {
         font-size: 0.75rem;
     }
 }
+
+/* For small screens from 320px wide and down */
+@media screen and (max-width: 320px) {
+    .qtitle {
+        font-size: 0.9rem;
+        padding-bottom: 15px;
+    }
+
+    .hud-prefix {
+        font-size: 0.8rem;
+    }
+
+    .hud-main-text {
+        padding-bottom: 0px;
+    }
+
+    .hud-main-text {
+        font-size: 0.8rem;
+    }
+
+    #question {
+        font-size: 0.75rem;
+    }
+
+    .choice-container {
+        font-size: 0.75rem;
+    }
+}
