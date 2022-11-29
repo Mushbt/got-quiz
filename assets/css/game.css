@@ -197,3 +197,22 @@ p {
         margin-bottom: 1.25rem;
     }
 }
+
+/* For smallscreens from 527px wide and down */
+@media screen and (max-width: 527px) {
+    .qtitle {
+        font-size: 2rem;
+    }
+
+    .hud-main-text {
+        font-size: 2rem;
+    }
+
+    #question {
+        font-size: 1.25rem;
+    }
+
+    .choice-container {
+        font-size: 1.25rem;
+    }
+}
