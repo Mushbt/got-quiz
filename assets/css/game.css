@@ -216,3 +216,23 @@ p {
         font-size: 1.25rem;
     }
 }
+
+/* For smallscreens from 414px wide and down */
+@media screen and (max-width: 414px) {
+    .hud-prefix {
+        font-size: 1.25rem;
+    }
+
+    .hud-main-text {
+        font-size: 1.25rem;
+    }
+
+    #question {
+        font-size: 1.2rem;
+    }
+
+    .choice-container {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
