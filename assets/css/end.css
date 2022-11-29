@@ -122,9 +122,21 @@ justify-content: center;
 @media screen and (max-width: 527px) {
     h1 {
         font-size: 2.5rem;
+        padding-bottom: 200px;
     }
 
     .btn {
         font-size: 1.25rem;
+    }
+}
+
+/* For small screens from 414px wide and down */
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
     }
 }
