@@ -61,22 +61,20 @@ justify-content: center;
     padding: 2rem;
 }
 /*Media Queries*/
-@media screen and (max-width: 1920px) {
+/* For large screens from 2500px wide and down */
+@media screen and (max-width: 2500px) {
     h1 {
-        font-size: 7rem;
-    }
-
-    .btn {
         font-size: 4rem;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    h1 {
-        font-size: 5rem;
     }
 
     .btn {
         font-size: 3rem;
+    }
+}
+
+/* For large screens from 1600px wide and down */
+@media screen and (max-width: 1600px) {
+    .btn {
+        font-size: 2.7rem;
     }
 }
