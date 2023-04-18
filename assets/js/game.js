@@ -1,17 +1,31 @@
 /*jshint esversion: 6 */
-//Quiz Variables
-const question = document.querySelector('#question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
-const questionsCounter = document.getElementById('questionCounter');
-const scores = document.getElementById('score');
 
+//Quiz Constant Variables
+// Creates a constant variable "question" and assigns it to the element with the id "question" in the HTML document.
+const question = document.querySelector('#question');
+// Creates a constant variable "choices" and assigns it to an array of elements with the class "choice-text" in the HTML document.
+const choices = Array.from(document.getElementsByClassName('choice-text'));
+// Creates a constant variable and assigns them to element with the id "questionCounter" in the HTML document.
+const questionsCounter = document.getElementById('questionCounter');
+// Creates a constant variable and assigns them to element with the id "score" in the HTML document.
+const scores = document.getElementById('score'); 
+
+// Quiz Variables
+// Empty object that will be updated with the current question
 let currentQuestion = {};
+// Boolean value that indicates whether the player can currently submit an answer
 let acceptingAnswers = false;
+// An integer that will be updated with the player's score
 let score = 0;
+// An integer that keeps track of the current question number
 let questionCounter = 0;
+// An empty array that will be updated with the remaining questions available for the player to answer
 let availableQuestions = [];
+
 //Quiz questions
-let questions = [{
+// An array with contains objects representing questions which have a question property, 4 choices property and an answer property which coitains the index of the correct 
+// answer choice.
+let questions = [{ 
         question: "Winterfell is the home of which family?",
         choice1: 'Tully',
         choice2: 'Stark',
@@ -252,25 +266,33 @@ let questions = [{
         answer: 2,
     },
 ];
-//Correct scores and max question variables
-const CORRECT_SCORE = 1;
-const MAX_QUESTIONS = 10;
-//When game starting question counter and score both 0
+
+// Correct scores and max question variables
+const CORRECT_SCORE = 1; // Constant variable used to keep track of correct score
+const MAX_QUESTIONS = 10; // Constant variable used to keep track of question limit
+
+// Start game function that initializes the game's state by setting the question counter and score variables to 0 and populates the 'available questions'
+// array with questions from the 'questions' array. It then calls the 'get new question' function to load first question.
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
+
+// Defining a getNewQuestion function that checks if there are any questions left to ask, and if not, stores the user's score in local storage and redirects them to the 
+// end of game page. If there are still questions left, it increments the questionCounter, updates the UI to show the current question number, 
+// selects a random question from the availableQuestions array, displays the question and its answer choices, removes the chosen question from the availableQuestions array,
+// and sets a flag to indicate that the game is accepting answers.
 getNewQuestion = () => {
 
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('end.html'); //After 10 questions redirecting to end page
+        return window.location.assign('end.html');
     }
     questionCounter++;
     questionsCounter.innerText = `${questionCounter} / ${MAX_QUESTIONS}`;
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length); //Random questions
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
@@ -279,12 +301,16 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion["choice" + number];
     });
 
-    availableQuestions.splice(questionIndex, 1); //Question won't be repeated twice in same game
+    availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
 
+// Adding event listeners to each answer choice in the choices array that listens for a click event. When a user clicks on an answer choice, it checks if the game is
+// currently accepting answers (based on the acceptingAnswers flag), and if not, does nothing. If it is accepting answers, it sets the acceptingAnswers flag to false to
+// prevent the user from answering again before the next question, determines whether the user's choice was correct or not, increments the user's score if they chose correctly,
+// and highlights the correct answer if they did not. It then sets a timeout to remove the highlighting and load the next question after a short delay.
 choices.forEach(choice => {
-    choice.addEventListener("click", e => { //Event Listener for when user clicks on an answer
+    choice.addEventListener("click", e => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
@@ -294,24 +320,26 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         const correctAnswer = choices[currentQuestion.answer - 1];
         if (classToApply === "correct") {
-            incrementScore(CORRECT_SCORE); //Points increase if choice is correct
+            incrementScore(CORRECT_SCORE);
         } else if (classToApply === "incorrect") {
-            correctAnswer.parentElement.classList.add("correct"); // Show correct answer if incorrect answer is choses
+            correctAnswer.parentElement.classList.add("correct");
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
-            correctAnswer.parentElement.classList.remove('correct'); // Remove green highlight of correct answer once new question is loaded
+            correctAnswer.parentElement.classList.remove('correct');
             getNewQuestion();
         }, 1000);
     });
 });
 
+// Defining an 'incrementScore' function that adds a given number to the user's score and updates the UI to reflect the new score.
 incrementScore = num => {
     score += num;
     scores.innerText = score;
 };
 
+// Calls the 'start game' function to start game.
 startGame();
